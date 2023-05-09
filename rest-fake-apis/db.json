@@ -35,35 +35,21 @@
       "employeeId": "123456789",
       "creationDate": "1992-01-26 09:00",
       "balance": "6000"
-    },
-    {
-      "id": "1223",
-      "name": "Conta Corrente",
-      "agency": "4321",
-      "employeeId": "987654321",
-      "creationDate": "2010-01-26 09:00",
-      "balance": "32000"
-    },
-    {
-      "id": "1224",
-      "name": "Conta Salário",
-      "agency": "4321",
-      "employeeId": "987654321",
-      "creationDate": "2010-01-26 09:00",
-      "balance": "12000"
     }
   ],
   "customer": [
     {
       "id": "123",
       "name": "Alegra Schimth",
-      "accountId": "1223",
+      "accountId": "1221",
+      "email": "teste@teste.com",
       "jobPosition": "Manager",
       "salary": "35000",
       "birthDate": "1990-01-26 09:00",
+      "creationDate": "1990-01-26 09:00",
       "familyMembers": [
         {
-          "id": 1234,
+          "id": "1234",
           "name": "Roger Santos",
           "type": "Marido"
         }
@@ -72,13 +58,15 @@
     {
       "id": "456",
       "name": "Rivo Sales Silva",
-      "accountId": "1223",
+      "accountId": "1222",
+      "email": "teste@teste.com",
       "jobPosition": "Developer",
       "salary": "30000",
       "birthDate": "2010-01-26 09:00",
+      "creationDate": "2010-01-26 09:00",
       "familyMembers": [
         {
-          "id": 9876,
+          "id": "9876",
           "name": "Livia Renata Silva",
           "type": "Esposa"
         }
@@ -89,29 +77,34 @@
     {
       "id": "1",
       "name": "RG",
-      "customerId": "123"
+      "customerId": "123",
+      "creationDate": "2015-01-26 09:00"
     },
     {
       "id": "2",
       "name": "Biometria",
-      "customerId": "123"
+      "customerId": "123",
+      "creationDate": "2015-01-26 09:00"
     },
     {
       "id": "3",
       "name": "Comprovante de Endereço",
-      "customerId": "456"
+      "customerId": "456",
+      "creationDate": "2015-01-26 09:00"
     }
   ],
   "offers": [
     {
       "id": "1",
       "name": "Cartão de Crédito",
-      "customerId": "456"
+      "customerId": "456",
+      "creationDate": "2015-01-26 09:00"
     },
     {
       "id": "2",
       "name": "Consignado 150mil",
-      "customerId": "123"
+      "customerId": "123",
+      "creationDate": "2015-01-26 09:00"
     }
   ]
 }
